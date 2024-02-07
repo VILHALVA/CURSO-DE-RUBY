@@ -1,7 +1,7 @@
 # CURSO DE RUBY
 👨‍⚖️RUBY É UMA LINGUAGEM DE PROGRAMAÇÃO.
 
-<img src="FOTO.png" align="center" width="400"> <br>
+<img src="FOTO.jpg" align="center" width="400"> <br>
 
 ## VISÃO PANORÂMICA:
 | PERGUNTA | RESPOSTA |
