@@ -85,5 +85,6 @@ Hoje, o Ruby é uma das linguagens de programação mais populares do mundo, con
 - [CURSO CRIADO PELO "ONE BIT CODE"](https://www.youtube.com/playlist?list=PLdDT8if5attEOcQGPHLNIfnSFiJHhGDOZ)
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://www.ruby-lang.org/en/documentation/)
+- [VEJA O MANUAL](./MANUAL.md)
 - [VEJA A SINTAXE](./SINTAXE.md)
 - [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=topic:RUBY)
