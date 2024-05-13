@@ -79,3 +79,43 @@ Para instalar os três pacotes (MSYS2 base installation, MSYS2 system update e M
 
 Você deverá ver a saída `Olá, mundo!` no console, indicando que seu script foi executado com sucesso.
 
+## SOBRE AS DEPENDÊNCIAS:
+### IMPORTAÇÃO:
+No mundo Ruby, é comum usar um arquivo chamado `Gemfile` para gerenciar as dependências de um projeto, semelhante ao `requirements.txt` do Python.
+
+1. **Crie um arquivo `Gemfile`:**
+   No diretório raiz do seu projeto, crie um arquivo chamado `Gemfile` (sem extensão).
+
+2. **Adicione a gem `nome-do-pacote` ao `Gemfile`:**
+   Abra o arquivo `Gemfile` com um editor de texto e adicione a seguinte linha:
+   ```
+   gem 'nome-do-pacote'
+   ```
+
+3. **Instale as dependências:**
+   Após adicionar a `nome-do-pacote` ao `Gemfile`, instale as dependências do seu projeto. No terminal, vá até o diretório do seu projeto e execute o seguinte comando:
+   ```
+   bundle install
+   ```
+
+   Isso instalará a gem `nome-do-pacote` e qualquer outra gem listada no `Gemfile`, juntamente com suas dependências.
+
+Dessa forma, outros desenvolvedores poderão facilmente instalar as dependências do projeto e começar a trabalhar nele sem precisar instalar manualmente cada gem individualmente.
+
+### EXPORTAÇÃO:
+No Bundler, há uma maneira de gerar automaticamente um `Gemfile.lock`, que contém todas as dependências do seu projeto junto com suas versões exatas. Você pode usar este `Gemfile.lock` para instalar as mesmas dependências em outro ambiente.
+
+1. **Navegue até o diretório do seu projeto:**
+   No terminal, vá para o diretório raiz do seu projeto.
+
+2. **Execute o comando `bundle install`:**
+   Execute o seguinte comando no terminal para instalar todas as dependências do seu projeto:
+   ```
+   bundle install
+   ```
+
+3. **Crie o arquivo `Gemfile.lock`:**
+   Após a instalação das dependências, o Bundler criará automaticamente um arquivo chamado `Gemfile.lock`. Este arquivo contém todas as dependências do seu projeto, incluindo as dependências de suas dependências, com suas versões exatas.
+
+4. **Copie o `Gemfile.lock` para o novo ambiente:**
+   Para instalar as mesmas dependências em outro ambiente, copie o arquivo `Gemfile.lock` para o diretório do novo projeto e execute `bundle install`. O Bundler então instalará todas as dependências listadas no `Gemfile.lock` com suas versões exatas.
